@@ -54,7 +54,7 @@ ol {
 }
 
 .content__list {
-  max-height: 298px;
+  height: 298px;
   min-width: 399px;
   overflow: auto;
   position: relative;
@@ -274,7 +274,6 @@ fieldset {
 }
 
 .button:active {
-  border: 1px solid #FFF;
   background: #545050;
 }
 
