@@ -55,6 +55,7 @@ ol {
 
 .content__list {
   height: 298px;
+  max-width: 399px;
   overflow: auto;
   position: relative;
 }
@@ -104,11 +105,16 @@ ol {
 .content__video-card {
   display: flex;
   align-items: flex-start;
+  max-width: 394px;
 }
 
 .content__video-card-thumbnail {
+  width: 194px;
   height: 103px;
-  background-size: cover;
+  object-fit: cover;
+  display: flex;
+  justify-content: end;
+  object-position: center;
 }
 
 .content__video-card-description-container {
@@ -288,11 +294,9 @@ fieldset {
   width: 225px;
 }
 
-/*
 ::-webkit-scrollbar {
   width: 10px;
 }  
-*/
 
 .search-form__textfield:focus {
   outline: none;
